@@ -15,7 +15,7 @@ Nesta seção vão exemplos de como se converter, localmente (usando plantuml.ja
 
 Seguem um rol de exemplos de comandos para cada tipo de formato de arquivo: 
 #### a) svg : 
-* java -Djava.awt.headless=true -jar plantuml.jar zuri_passo_a_passo_pronto.puml -tsvg
+* java -Djava.awt.headless=true -jar plantuml.jar file.puml -tsvg
 
 * java -Djava.awt.headless=true -jar plantuml.jar *.puml -tsvg -o "./uml_svg/"
 
