@@ -1,0 +1,20 @@
+@startuml 
+
+title ELAW - Em Verde Feito
+start 
+
+card "Captura de Dados" {
+: 01. Abertura de chamado para criação de regra SFTCP;
+: 02. Abertura de chamado para acesso ao banco de dados;
+: 03.Configuração do Linked Service no ADF;
+: 04. Configuração do Dataset genérico;
+: 05. Criação do Pipeline da captura de dados;
+: 06. Criação do Pipeline da captura de dados - Dados Históricos;
+: 07. Mapeamento das tabelas, chaves e filtros para a tabela de controle de carga;
+: 08. Inserir registros na tabela de controle de carga ;
+: 09. Teste de execução de pipeline;
+: 10. Validação dos dados da camada bronze ;
+}
+end
+
+@enduml 

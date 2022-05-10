@@ -1,0 +1,20 @@
+@startuml 
+
+title ZURI - Em Verde Feito
+start 
+
+card "Captura de Dados" {
+#palegreen: 01. Abertura de chamado para criação de regra STCP;
+#palegreen: 02. Abertura de chamado para acesso ao banco de dados;
+#palegreen: 03.Configuração do Linked Service no ADF;
+#palegreen: 04. Configuração do Dataset genérico;
+#palegreen: 05. Criação do Pipeline da captura de dados;
+#palegreen: 06. Criação do Pipeline da captura de dados - Dados Históricos;
+#palegreen: 07. Mapeamento das tabelas, chaves e filtros para a tabela de controle de carga;
+#palegreen: 08. Inserir registros na tabela de controle de carga ;
+: 09. Teste de execução de pipeline;
+: 10. Validação dos dados da camada bronze ;
+}
+end
+
+@enduml 

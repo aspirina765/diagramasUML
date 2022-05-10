@@ -1,0 +1,25 @@
+@startuml
+title Arquitetura - Ingestão Arquivos/Planilhas Eletrônicas 
+start
+card "Diretório de Origem" { 
+:Aquivo;
+
+:Rotina
+    # carga de arquivos na pre_landing_zone;
+:Transformação dos dados em Parquet;
+
+:carga na landing_zone;
+    
+}
+
+card "TODO" {
+    :???;
+}
+
+card "Datalake" {
+    :Bronze;
+}
+
+end
+@enduml
+

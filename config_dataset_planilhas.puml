@@ -1,0 +1,40 @@
+@startuml
+
+title Arquitetura - Ingestão Planilhas Eletrônicas -Dataset
+start
+:Linked Service configurado;
+card "Configuração Dataset" { 
+:Datasets ; 
+:Copy Data;
+split
+:**Source Dataset** - pre_landing_zone
+Name
+Connect via Integration Runtime
+File_path;
+:Filesystem;
+:Select Format: Excel
+Name: DS_EXCEL_Generic
+Linked Service:FSR_SHIR_IBM;
+note left
+Exempos de entradas
+end note
+:Escolha de diretório/Criar Pasta
+c:/csccontainer/compliance/canalseguro;
+note left
+Depende de chamado
+end note
+split again
+:**Sink** - landing_zone
+Sink dataset: DS_EXCEL_Generic_DataLakeParquet;
+:folderName 
+fileName;
+note left 
+Criar pasta(s) na landing_zone e 
+na **tabela de controle de carga**.
+Feito pela Edenred.
+end note
+end split
+end
+}
+
+@enduml 
