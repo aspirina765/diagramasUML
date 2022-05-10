@@ -2,7 +2,7 @@
 
 Estes arquivos provém exemplos e formas para se fazer diagramas UML usando o software (free e open source) <a href="https://plantuml.com/" alt="a0">plantUML</a>. 
 
-Existe um jupyter notebook ("edenred_arquitetura_diagramas.ipynb") de exemplo que utiliza o plantUML (localmente ou usando API) em jupyter. 
+Existe um jupyter notebook (*.ipynb) de exemplo que utiliza o plantUML (localmente ou usando API) em jupyter. 
 
 Para uso local, é necessário usar o arquivo plantuml.jar (presente na referência <a href="https://plantuml.com/download" alt="c">3</a>) junto dos comandos de linha, documentados na referência <a href="https://plantuml.com/command-line" alt="a" >1</a>.
 
