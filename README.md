@@ -35,7 +35,7 @@ Seguem um rol de exemplos de comandos para cada tipo de formato de arquivo:
 
 1. <a href="https://plantuml.com/command-line" alt="a" >Comandos de linha para salvar diagramas localmente usando java e plantuml.jar</a>
 
-2. <a href="https://plantuml.com/guide" alt="b">Guia plantUML</a>
+2. <a href="https://plantuml.com/guide" alt="b">Guia do plantUML</a>
 
-3. <a href="https://plantuml.com/download" alt="c">Página de downlaods do plantUML</a>
+3. <a href="https://plantuml.com/download" alt="c">Página de downloads do plantUML</a>
 
