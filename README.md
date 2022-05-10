@@ -39,5 +39,5 @@ Seguem um rol de exemplos de comandos para cada tipo de formato de arquivo:
 
 3. <a href="https://plantuml.com/download" alt="c">Página de downloads do plantUML</a>
 
-4. <a href="https://plantuml-documentation.readthedocs.io/en/latest/formatting/all-skin-params.html#card" alt="d">Estilos com skinparam</a>
+4. <a href="https://plantuml-documentation.readthedocs.io/en/latest/formatting/all-skin-params.html#" alt="d">Estilos com skinparam</a>
 
