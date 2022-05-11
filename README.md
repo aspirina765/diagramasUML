@@ -13,7 +13,7 @@ Um guia completo de como produzir diferentestipos de diagramas é fornecida pelo
 
 Nesta seção vão exemplos de como se converter, localmente (usando plantuml.jar), arquivos .puml ou .txt (ou seja, diagramas produzidos em plantUML) em formatos diversos. Uma visão mais completa de formatos e comandos possíveis está na referência <a href="https://plantuml.com/command-line" alt="a" >1</a>. 
 
-Seguem um rol de exemplos de comandos para cada tipo de formato de arquivo: 
+Segue um rol de exemplos de comandos para cada tipo de formato de arquivo: 
 #### a) svg : 
 * java -Djava.awt.headless=true -jar plantuml.jar file.puml -tsvg
 
